@@ -21,4 +21,8 @@ public class FirstThymeleafController {
         System.out.println("first");
         return "index";
     }
+    @GetMapping("/test")
+    public void test(){
+        System.out.println("测试");
+    }
 }
